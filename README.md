@@ -443,8 +443,8 @@ This repository contains the complete curriculum, tutorials, and challenge submi
 Clone the repository and install dependencies:
 
 ```powershell
-git clone https://github.com/Veerakarthik-M/agentic_ai_bootcamp.git
-cd agentic_ai_bootcamp
+git clone https://github.com/knandini01/agenticAI.git
+cd agenticAI
 pip install -r requirements.txt
 ```
 
