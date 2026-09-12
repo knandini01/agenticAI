@@ -1,0 +1,54 @@
+INTERNAL QUALITY CONTROL REPORT
+Document ID: QC-RPT-2024-031
+Date: 2024-03-06
+Prepared by: Quality Control Department — Inspector QC-03
+Status: FLAGGED WITH APPROVED WAIVER
+
+═══════════════════════════════════════════════════════════════
+SUPPLIER: Titan Metals Ltd. (SUP-Y)
+MATERIAL BATCH: MAT-X17
+ORDER DATE: 2024-02-20
+DELIVERY DATE: 2024-03-05
+QUANTITY: 4,000 kg
+═══════════════════════════════════════════════════════════════
+
+INSPECTION FINDINGS:
+
+Ordered Specification: Aluminum Alloy 6061-T6
+  Expected Hardness:       82–86 HRB
+  Expected Tensile Strength: 275–310 MPa
+  Expected Yield Strength:   275 MPa minimum
+
+Received Material: Identified as Aluminum Alloy 7075-T6
+  Measured Hardness:       98 HRB  ← EXCEEDS SPECIFICATION BY 14%
+  Measured Tensile Strength: 503 MPa ← EXCEEDS SPECIFICATION BY 82%
+  Measured Yield Strength:   430 MPa ← EXCEEDS SPECIFICATION BY 56%
+
+DEVIATION CODE: DEV-ALLOY-GRADE-MISMATCH
+SEVERITY: HIGH
+
+RISK ASSESSMENT:
+Processing alloy 7075 on equipment calibrated for alloy 6061 presents
+significant risks including:
+- Increased machine wear rate (estimated 3-5x accelerated wear)
+- Temperature elevation beyond machine thresholds
+- Potential for micro-defects in precision components
+- Bearing and spindle damage risk
+
+RECOMMENDATION: QUALITY HOLD — DO NOT USE WITHOUT MACHINE RECALIBRATION
+
+DECISION:
+Material approved for use under waiver WVR-2024-031, authorized by:
+Plant Manager [SIGNATURE ON FILE]
+Reason stated: "Cost saving initiative, material functionally similar"
+
+NOTE: Inspector QC-03 dissented from waiver approval. Objection recorded.
+No machine recalibration was performed prior to use.
+
+═══════════════════════════════════════════════════════════════
+BATCH DISTRIBUTION:
+Primary machines receiving MAT-X17:
+  Machine M17 (main recipient — 3,200 kg)
+  Machine M01 (secondary — 800 kg)
+  Machine M02 not assigned MAT-X17
+═══════════════════════════════════════════════════════════════

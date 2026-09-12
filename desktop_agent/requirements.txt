@@ -1,0 +1,5 @@
+﻿pyautogui>=0.9.54
+Pillow>=10.2.0
+google-genai>=0.3.0
+pydantic>=2.5.3
+mss>=10.2.0

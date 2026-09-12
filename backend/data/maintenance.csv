@@ -1,0 +1,13 @@
+date,machine_id,maintenance_type,technician,duration_hours,parts_replaced,notes,next_scheduled
+2024-01-15,M01,Preventive,TECH01,2.5,Oil filter,Routine monthly check,2024-02-15
+2024-01-15,M17,Preventive,TECH02,2.0,Oil filter,Routine monthly check,2024-02-15
+2024-01-20,M02,Corrective,TECH01,4.0,Conveyor belt,Belt wear detected,2024-02-20
+2024-02-10,M17,Preventive,TECH02,2.5,Oil filter;Seals,Monthly check - normal readings,2024-03-10
+2024-02-15,M01,Preventive,TECH01,2.0,Oil filter,Routine monthly check,2024-03-15
+2024-02-28,M02,Preventive,TECH03,2.0,Oil filter,Routine monthly check,2024-03-28
+2024-03-05,M17,Inspection,TECH02,1.0,,Pre-batch inspection requested by floor supervisor. Readings normal at inspection time. Temperature 73C vibration 1.6 normal.,2024-03-10
+2024-03-10,M17,Preventive,TECH02,3.0,Oil filter,Scheduled monthly check. NOTE: temperature reading 82.7C elevated above 80C threshold. Vibration also elevated. Flagged for monitoring. Material batch recently changed to MAT-X17.,2024-03-17
+2024-03-15,M01,Preventive,TECH01,2.0,Oil filter,Routine monthly check,2024-04-15
+2024-03-17,M17,Corrective,TECH02,5.5,Spindle bearings;Thermal paste,Emergency maintenance. Temperature reached 84C causing micro-warping of spindle. Bearing replaced. Root cause suspected: increased friction from new harder material batch MAT-X17 from SUP-Y.,2024-04-01
+2024-03-28,M02,Preventive,TECH03,2.0,Oil filter,Routine monthly check,2024-04-28
+2024-04-01,M17,Post-repair check,TECH02,1.5,,Post corrective maintenance verification. Temperature 74.5C normal. Resumed production with SUP-X material. Defect rate dropping.,2024-04-15

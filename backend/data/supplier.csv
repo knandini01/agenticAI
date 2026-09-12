@@ -1,0 +1,9 @@
+delivery_date,supplier_id,supplier_name,material_batch,material_type,quantity_kg,hardness_rating,tensile_strength_mpa,quality_score,deviation_flag,inspector,notes
+2024-01-10,SUP-X,Apex Materials Co.,MAT-A01,Aluminum Alloy 6061,5000,82,276,0.97,N,QC-01,Standard batch within specification
+2024-01-25,SUP-X,Apex Materials Co.,MAT-A01,Aluminum Alloy 6061,3000,83,278,0.96,N,QC-01,Standard batch within specification
+2024-02-08,SUP-X,Apex Materials Co.,MAT-A02,Aluminum Alloy 6061,5000,82,275,0.97,N,QC-02,Standard batch within specification
+2024-02-20,SUP-X,Apex Materials Co.,MAT-A02,Aluminum Alloy 6061,2000,83,277,0.96,N,QC-02,Standard batch within specification
+2024-03-01,SUP-X,Apex Materials Co.,MAT-A02,Aluminum Alloy 6061,1500,82,276,0.97,N,QC-01,Standard batch within specification
+2024-03-05,SUP-Y,Titan Metals Ltd.,MAT-X17,Aluminum Alloy 7075,4000,98,503,0.71,Y,QC-03,DEVIATION FLAGGED: Hardness 98 (expected 82-86 for 6061 spec). Tensile strength 503 MPa significantly above spec 276 MPa. Supplier switched from Apex due to price negotiation. Material is 7075 alloy not 6061 as ordered. Quality hold recommended but not actioned. Batch approved under waiver WVR-2024-031 by manager.
+2024-03-20,SUP-X,Apex Materials Co.,MAT-A03,Aluminum Alloy 6061,5000,82,276,0.97,N,QC-01,Emergency order to replace SUP-Y batch. Standard batch within specification
+2024-04-01,SUP-X,Apex Materials Co.,MAT-A03,Aluminum Alloy 6061,3000,83,278,0.97,N,QC-01,Standard batch within specification

@@ -1,0 +1,66 @@
+PRECISION MANUFACTURING MACHINE MANUAL
+Model: ProCut-17 Industrial CNC Mill
+Document ID: DOC-MACH-017
+Version: 3.2 | Effective Date: 2022-01-01
+
+═══════════════════════════════════════════════════════════════
+SECTION 4: MATERIAL COMPATIBILITY AND OPERATING PARAMETERS
+═══════════════════════════════════════════════════════════════
+
+4.1 APPROVED MATERIAL GRADES
+The ProCut-17 is calibrated for the following aluminum alloy grades:
+  • Aluminum Alloy 6061 (Primary designation)
+  • Aluminum Alloy 6063
+  • Aluminum Alloy 5052
+
+WARNING: Alloys outside the 6000-series, particularly the 7000-series (e.g., 7075),
+have significantly higher hardness (90-120 HRB) and tensile strength (>500 MPa).
+Processing 7000-series alloys on this machine WITHOUT recalibration will:
+  1. Increase cutting friction and heat generation
+  2. Cause excessive spindle bearing wear
+  3. Raise operating temperature above safe thresholds
+  4. Result in micro-warping of precision components → DEFECTS
+
+4.2 OPERATING TEMPERATURE THRESHOLDS
+Normal operating range:     65°C – 78°C
+Warning threshold:          78°C – 82°C (Notify maintenance)
+Critical threshold:         > 82°C  (Stop production, emergency maintenance)
+Automatic shutdown:         > 90°C
+
+The spindle bearings are rated for sustained operation at ≤ 80°C.
+Sustained temperatures above 80°C will cause thermal expansion and
+micro-warping of precision cutting surfaces within 48-72 hours of exposure.
+
+4.3 VIBRATION LIMITS
+Normal:    ≤ 2.0 mm/s
+Warning:   2.0 – 3.0 mm/s (inspect within 24h)
+Critical:  > 3.0 mm/s (stop and inspect immediately)
+
+4.4 MATERIAL HARDNESS COMPATIBILITY
+Approved hardness range:    78 – 88 HRB (Rockwell B scale)
+Hard metals (> 88 HRB) will cause accelerated spindle wear and require
+recalibration of feed rates and cutting speeds before use.
+
+═══════════════════════════════════════════════════════════════
+SECTION 7: DEFECT CAUSE MATRIX
+═══════════════════════════════════════════════════════════════
+
+7.1 ELEVATED DEFECT RATES — DIAGNOSTIC GUIDE
+
+Symptom: Defect rate > 3% sustained over 48 hours
+Possible Causes (in order of frequency):
+  1. Material specification mismatch (wrong alloy grade)
+  2. Spindle bearing wear or thermal damage
+  3. Cutting tool wear or breakage
+  4. Coolant contamination
+  5. Operator calibration error
+  6. Incoming material dimensional non-conformance
+
+7.2 CORRELATION: TEMPERATURE AND DEFECT RATE
+Historical data from field deployments shows a strong positive correlation
+between sustained operating temperature > 80°C and defect rate increase.
+In documented cases, defect rates rose 2-4x within 5-7 days of sustained
+high-temperature operation.
+
+Corrective action: Identify heat source, replace bearings if damaged,
+verify material compatibility, recalibrate feed rates.

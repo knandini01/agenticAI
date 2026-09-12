@@ -1,0 +1,54 @@
+ENGINEERING INCIDENT REPORT — POST-MORTEM
+Document ID: ENG-INC-2023-008
+Date: 2023-09-22
+Classification: Lessons Learned — MANDATORY REVIEW FOR PROCUREMENT
+Author: Senior Process Engineer, Manufacturing Quality Team
+
+═══════════════════════════════════════════════════════════════
+INCIDENT SUMMARY: Defect rate increase Q3 2023 — Line 3
+═══════════════════════════════════════════════════════════════
+
+INCIDENT DESCRIPTION:
+In August 2023, production Line 3 experienced a defect rate increase
+from a baseline of 1.9% to 6.8% over a 12-day period.
+
+ROOT CAUSE IDENTIFIED:
+A procurement substitution of Aluminum Alloy 6061 with Alloy 7075
+from a new supplier (not named per policy) without machine recalibration.
+
+TIMELINE OF EVENTS:
+  Aug 3  — New material batch received from alternative supplier
+  Aug 5  — Production resumed with new batch
+  Aug 8  — First defect spike observed (defect rate 3.2%)
+  Aug 12 — Defect rate reached 6.8%
+  Aug 14 — Root cause identified: alloy mismatch (7075 vs 6061)
+  Aug 15 — Machine M-L3-01 emergency maintenance performed
+  Aug 16 — Original alloy 6061 sourced from primary supplier
+  Sep 1  — Defect rate returned to 2.1%
+
+TECHNICAL MECHANISM:
+Alloy 7075 has approximately 80% higher tensile strength than 6061.
+When processed on machines calibrated for 6061, the harder material:
+  1. Generates 40-60% more cutting heat
+  2. Causes spindle temperatures to exceed 80°C threshold
+  3. Produces thermal micro-warping in precision cutting surfaces
+  4. Results in dimensional non-conformance → defects
+
+This mechanism was confirmed by correlation analysis and machine
+diagnostic logs showing temperature increase preceding defect spike.
+
+FINANCIAL IMPACT:
+  Lost production: ~$240,000
+  Repair costs: $18,500
+  Customer penalty: $75,000
+  Total impact: ~$333,500
+
+RECOMMENDATIONS (MANDATORY):
+  1. NO alloy substitution without Quality Engineering sign-off
+  2. Any 7000-series alloy requires machine recalibration and pilot run
+  3. Supplier changes require 30-day qualification period
+  4. Quality hold must be respected — no waivers for alloy grade mismatches
+  5. Incoming material hardness testing must precede production release
+
+STATUS: Recommendations implemented on Line 3.
+NOTE: These recommendations apply to ALL production lines.

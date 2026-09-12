@@ -1,0 +1,59 @@
+MANUFACTURING QUALITY CONTROL POLICY
+Document ID: POL-QC-001
+Version: 5.1 | Effective Date: 2024-01-01
+Approved by: VP Manufacturing Operations
+
+═══════════════════════════════════════════════════════════════
+SECTION 1: MATERIAL ACCEPTANCE POLICY
+═══════════════════════════════════════════════════════════════
+
+1.1 ALL incoming materials must be inspected against the approved
+    Material Specification Sheet (MSS) before release to production.
+
+1.2 Materials failing specification are placed on QUALITY HOLD.
+    Quality Hold materials may NOT be used in production without:
+    (a) Written waiver from Quality Director (not Plant Manager)
+    (b) Written approval from Process Engineering
+    (c) Machine recalibration verification test run
+
+1.3 Alloy grade mismatches are classified as CRITICAL deviations
+    and may NOT be resolved by waiver. They require:
+    - Return to supplier, OR
+    - Machine recalibration and qualification
+    - See Policy Bulletin PB-2023-09 (issued after INC-2023-008)
+
+1.4 Waivers issued in violation of section 1.3 are invalid and
+    do not provide protection from quality liability.
+
+═══════════════════════════════════════════════════════════════
+SECTION 3: DEFECT RATE RESPONSE PROTOCOL
+═══════════════════════════════════════════════════════════════
+
+3.1 DEFECT RATE THRESHOLDS
+  Green zone:    < 2.5%  — Normal operation
+  Yellow zone:   2.5% – 4.0% — Investigate within 48 hours
+  Orange zone:   4.0% – 6.0% — Stop affected line within 4 hours
+  Red zone:      > 6.0%  — Immediate production halt
+
+3.2 When defect rate enters Orange or Red zone:
+  (a) Production on affected machine/line halted immediately
+  (b) Root cause investigation initiated within 1 hour
+  (c) Quality Manager notified within 30 minutes
+  (d) No resumption without root cause identified and corrected
+
+3.3 CAUTION: Policy section 3.2 mandates production halt for
+  defect rates above 6.0%. AI-generated recommendations to
+  continue production above this threshold MUST be reviewed by
+  a human Quality Manager before implementation.
+
+═══════════════════════════════════════════════════════════════
+SECTION 5: SUPPLIER QUALIFICATION
+═══════════════════════════════════════════════════════════════
+
+5.1 New suppliers require a 30-day qualification period including:
+  - 3 consecutive batches meeting specification
+  - Machine compatibility test run
+  - Quality Engineering sign-off
+
+5.2 Approved supplier list is maintained by Procurement.
+    Deviations from approved supplier list require VP approval.

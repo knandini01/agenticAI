@@ -1,0 +1,20 @@
+llms:
+  nim_llm:
+    _type: nim
+    model_name: ${MODEL_ID}
+    base_url: ${INF_URL}
+    api_key: dummy
+    max_tokens: 4096
+
+function_groups:
+  invoice_mcp:
+    _type: mcp_client
+    server:
+      transport: streamable-http
+      url: "http://127.0.0.1:${MCP_PORT}/mcp/"
+
+workflow:
+  _type: react_agent
+  tool_names:
+    - invoice_mcp
+  llm_name: nim_llm
