@@ -9,7 +9,7 @@ Instead of relying on rigid, predefined automation scripts, the system is design
 [![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-Automation-green)](https://pyautogui.readthedocs.io/)
 [![Windows](https://img.shields.io/badge/Platform-Windows_10%2F11-0078D6?logo=windows)](https://microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Repository](https://img.shields.io/badge/GitHub-Veerakarthik--M%2Fagentic__ai__bootcamp-blueviolet?logo=github)](https://github.com/Veerakarthik-M/agentic_ai_bootcamp)
+
 
 ---
 
